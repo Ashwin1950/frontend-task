@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "build": "postcss styles/tailwind.css -o styles/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.5.2"
+  },
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "clone for intern",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manangouhari/yt-clone-video.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manangouhari/yt-clone-video/issues"
+  },
+  "homepage": "https://github.com/manangouhari/yt-clone-video#readme"
+}

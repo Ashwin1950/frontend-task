@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+<body class="bg-gray-100 font-Roboto antialised">
+    <header class="bg-white divide-y ml-18 border-b fixed inset-x-0">
+        <div class="flex justify-between items-center h-14 mx-4">
+            <div class="-ml-3">
+                <img src="images/ytlogo.png" alt="youtube logo" class="w-20 h-12">
+            </div>
+            <div class="flex items-center justify-center flex-grow">
+                <input type="text" placeholder="Search" class="border border-gray-400 h-8  px-1 py-2 focus:outline-none focus:border-blue-600 w-3/5">
+                <button class="bg-gray-200 flex items-center justify-center h-8 w-16 border border-gray-400 border-l-0 hover:bg-gray-300">
+                    <i class="material-icons">search</i>
+                </button>
+            </div>
+            <div class="flex items-center justify-center space-x-4">
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">video_call</i>
+                </button>
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">apps</i>
+                </button>
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">notifications</i>
+                </button>
+                <button>
+                    <div class="h-8 w-8 rounded-full bg-blue-300 overflow-hidden object-cover">
+                        <img class="object-cover" src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="">
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="flex items-center px-2 py-3 px-4 space-x-3 select-none">
+            <span class="text-sm bg-gray-700 border border-gray-800 rounded-full px-2 py-1 text-gray-200 shadow-inner">All Recommendations</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Tailwindcss</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Javascript</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Wrestling</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Python</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Coding</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">News</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">CSS</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Computer Science</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Comedy</span>
+                
+        </div>
+    </header>
+    <aside class="fixed top-0 w-18 h-screen bg-white flex items-center flex-col mt-4 text-gray-700">
+        <button><i class="material-icons">menu</i></button>
+        <div class="mt-6 w-full">
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4 text-red-600">
+                <i class="material-icons small">home</i>
+                <span class="text-xs">Home</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">local_fire_department</i>
+                <span class="text-xs">Trending</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">subscriptions</i>
+                <span class="text-xs">Subscriptions</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">video_library</i>
+                <span class="text-xs">Library</span>
+            </button>
+        </div>
+    </aside>
+    <main class="ml-24 pt-32">
+        <div class="border-b-4 border-gray-300 border-opacity-75 pb-12">
+            <h3 class="text-xl font-bold">Recommended</h3>
+            <div class="mt-4 grid grid-cols-4 row-gap-10 col-gap-2">
+                
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img  src="https://d34tp322e0pcja.cloudfront.net/wp-content/uploads/2019/08/20210015/colors-stand-out.jpg" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden" >
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/142677140/original/f1a57341e505219885e6511c71dac1e98537831b/design-professional-youtube-thumbnail.jpg" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://image.freepik.com/free-vector/modern-youtube-thumbnail-with-comic-art-background_1361-2738.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrloK0jzDwsIHccvXvqLOa5spot0rYgm5Eg&usqp=CAU"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://i.ytimg.com/vi/YKSe6v-M91o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxDJxxvEOUfBNiv2LchI5HhSLskA"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://i.ytimg.com/vi/858YA9sSWqg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2tjRaq_WV5nDZf5ZCMCyeVNEPdQ"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="https://i.ytimg.com/vi/-uXTTWHTKUQ/mqdefault.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img class="h-10 w-10" src="https://c.ndtvimg.com/2020-08/15p8epro_suresh-raina-afp_625x300_31_August_20.jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Channel Name</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68">
+                    <div class="h-45 w-full bg-gray-700 overflow-hidden">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10  w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img class="h-10 w-10" src="https://yt3.ggpht.com/ytc/AAUvwnj82Lirw0dg6V5pJWAcWdG22OESyldUcDwAFEqQWg=s176-c-k-c0x00ffffff-no-rj-mo"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Python Full Tutorial</div>
+                            <div class="text-xs text-gray-600">
+                                <p>Programming with Mosh</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-4">
+            <h3 class="text-xl font-bold">Latest Youtube posts</h3>
+            <div class="mt-2 grid grid-cols-3 gap-6">
+                <div class="w-92 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>Lorem ipsum &middot 6 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, reiciendis.
+                        </p>
+                        <div class="w-32 h-32 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                more_vert
+                            </i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-94 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>Lorem ipsum &middot 6 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, reiciendis.
+                        </p>
+                        <div class="w-32 h-32 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+                
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                    more_vert
+                                </i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-94 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                                alt="">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>Lorem ipsum &middot 6 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, reiciendis.
+                        </p>
+                        <div class="w-32 h-32 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+                
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                    more_vert
+                                </i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
