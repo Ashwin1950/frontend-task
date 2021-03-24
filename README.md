@@ -2,10 +2,17 @@
 
 # Installation
 
-- [ ] git clone https://github.com/Ashwin1950/frontend-task.git
-- [ ] cd frontend-task
-- [ ] npm install
-- [ ] run the project
+Clone the repo using this command
+``` git clone https://github.com/Ashwin1950/frontend-task.git ```
+
+Enter into the workspace using this command
+``` cd frontend-task ```
+
+And install the required dependencies using this command
+``` npm install ```
+
+Now you are good to go
+``` run the project ```
 
 # Libraries used
 ## Tailwind
