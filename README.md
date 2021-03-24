@@ -20,6 +20,9 @@ We have used tailwindcss for the frontend UI design, which is an utility based c
 
 # Screenshots
 
-![Youtube Clone - Google Chrome 3_24_2021 1_33_14 PM](https://user-images.githubusercontent.com/67495595/112275431-9e676200-8ca5-11eb-9aff-af57092fd37e.png)
+![Youtube Clone - Google Chrome 3_24_2021 2_17_35 PM](https://user-images.githubusercontent.com/67495595/112281171-c5c12d80-8cab-11eb-8292-a9c0b3b70cc4.png)
 
-![Youtube Clone - Google Chrome 3_24_2021 1_33_20 PM](https://user-images.githubusercontent.com/67495595/112275444-a1625280-8ca5-11eb-9901-d899d8e565b1.png)
+
+
+![Youtube Clone - Google Chrome 3_24_2021 2_17_41 PM](https://user-images.githubusercontent.com/67495595/112281189-ca85e180-8cab-11eb-9c7e-8ba26ba01955.png)
+
